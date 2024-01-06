@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+.btn-primary{
+    color: var(--White-Color, #ffffff); 
+font-size: 20px; 
+font-weight: 700; 
+background-color: #FD6E0A ;
+border-radius: 5px;
+padding: 10px 20px;
+border: none;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+}
+.nav-taytel{
+    color: var(--Dark-01, #181818);
+font-size: 45px; 
+font-weight: 800; 
+
+}
+.orang{
+    color: #FD6E0A;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
